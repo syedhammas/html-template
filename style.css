@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+
+}
+
+
+#container{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 4px 4px 30px rgb(8, 2, 59);;   
+    background-color: bisque;
+}
+
+#header{
+    height: 10px;
+    
+}
+
+#header #logo{
+    
+    width: 60%;
+    float: left;
+    padding: 5px;
+}
+
+#header #logo img{
+    height: 180px;
+}
+
+#header #navbar{
+    width: 100%;
+    padding: 90px;;
+    margin: auto;
+}
+
+#header #navbar ul{
+    list-style-type:none;
+      font-size: larger;
+      float: right;
+
+
+}
+
+#header #navbar ul li{
+    display: inline;
+    padding: 10px;
+
+}
+
+
+#images{
+    
+    clear: both;
+    padding: 10px;
+    background-image: url('images/img');
+    background-size: 100% 120%;
+    height: 400px;
+    text-align:center;
+}
+
+#images h1, #images h2{
+    color: white;    
+    text-shadow: 4px 4px 18px rgb(10, 9, 99);
+}
+
+#images h1{
+    margin-top: 35px;
+    font-size: 55px;
+
+}
+#images h2{
+    font-size: 35px;
+    margin-top: 2px;
+}
+
+#skills{
+    clear: both;
+    text-align:center;
+    padding: 10px;
+}
+#skills .skills-body{
+    float: left;
+    width: 25%;
+}
+
+#services{
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+#services .service{
+    width: 33%;
+    float: left;
+}
+
+#copyright{
+    clear: both;    
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
