@@ -2,8 +2,6 @@
     box-sizing: border-box;
 
 }
-
-
 #container{
     width: 70%;
     margin: auto;
@@ -13,7 +11,7 @@
 }
 
 #header{
-    height: 10px;
+    height: 258px;
     
 }
 
@@ -74,7 +72,7 @@
     margin-top: 2px;
 }
 
-#skills{
+#skills, #about{
     clear: both;
     text-align:center;
     padding: 10px;
@@ -104,5 +102,11 @@
     text-align: center;
 }
 
+#about{
+    text-align: left;
+}
+#contact{
 
 
+
+}
